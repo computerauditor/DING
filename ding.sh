@@ -1,5 +1,6 @@
 #!/bin/bash
-#DING => abbreviation of DIG and PING
+# DING => abbreviation of DIG and PING
+# Scripted by Dev(@computerauditor) 
 
 # Ask the user for a URL
 echo "Enter the URL: "
@@ -33,8 +34,7 @@ if [[ ${#unique_ip_addresses[@]} -gt 0 ]]; then
   for unique_ip_address in "${unique_ip_addresses[@]}"; do
     echo "IP Address: $unique_ip_address"
     response=$(curl -s "https://api.hackertarget.com/aslookup/?q=$unique_ip_address")
-    # Use jq to parse the response and extract the ASN
-    asn=$(echo "$response")
+    asn=$(echo $response | cut -d "," -f 2)
     echo "ASN: $asn"
     echo ""
   done
