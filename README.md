@@ -11,4 +11,4 @@ eg : chmod +x /home/kali/Desktop/ding.sh
 
 # Usage: 
 ./ding.sh
-Enter the URL
+or bash ding.sh
