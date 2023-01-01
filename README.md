@@ -25,6 +25,13 @@ chmod +x ding.sh
 ```
 3) Run the script using ./ding.sh and provide the url 
 
+# Note
+Please note that we can only make upto 50 requests using this API thereafter we would need API keys, kindly refer the [hackertarget](https://hackertarget.com/as-ip-lookup/) website for further reference.  
+
+# Credits
+* Infosec Community {For so much support and motivation}
+* HackerTarget team {For this awesome API}
+
 # Usage: 
 ```./ding.sh```
 or ```bash ding.sh```
