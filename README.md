@@ -3,7 +3,7 @@ A simple bash script that utilize both Dig and Ping commands to find the IP addr
 
 # Preview 
 
-https://imgur.com/siXYTuB.png
+![capture](https://user-images.githubusercontent.com/117805200/210173855-40f73601-8889-4661-aa03-ab9f5a88f7b1.png)
 
 # Installation
 
