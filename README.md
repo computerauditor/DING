@@ -1,6 +1,10 @@
 # DING
 A simple bash script that utilize both Dig and Ping commands to find the IP address of a given URL, as a bonus it can also find out possible ASN number using the hackertarget AS-Lookup API.
 
+# Preview 
+
+https://imgur.com/siXYTuB.png
+
 # Installation
 
 1) Its a simple bash script hence copy paste or clone this repo using the git clone command
